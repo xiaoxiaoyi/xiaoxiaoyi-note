@@ -10,6 +10,7 @@ Terminal快捷键:
 #Bash
 
 Bash快捷键:
+
 	CTRL L		清空屏幕
 	Tab		命令补全(详细看配置文档)
 	CTAL A		跳转到行首
