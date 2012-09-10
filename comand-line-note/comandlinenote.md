@@ -20,5 +20,16 @@ Bash快捷键:
 	CTRL W		替换单词
 	CTRL F/B	光标前后移动
 	ALT  F/B	光标在单词间前后移动
-	CTRL C		取消命令执行
-	CTRL R		反向查找命令
+
+#PATH环境变量
+
+	1.零时添加环境变量(关闭shell,还原PATH环境变量)
+	PATH=$PATH:user/bin
+	2.修改profile文件(attention:重启生效)
+	$vi /etc/profile 
+	在里面加入:
+	export PATH="$PATH:." 		
+	3.修改.bashrc文件(attention:重启生效)
+	$vi /root/.bashrc 
+	在里面加入： 
+	export PATH="$PATH:/my_new_path" 
