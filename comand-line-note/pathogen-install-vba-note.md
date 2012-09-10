@@ -3,14 +3,14 @@
 ##介绍vba
 vim插件老式直接为.vim脚本,需要人工维护这样带给我们很多的麻烦!所以vim官方给出了.vba解决方案可是在原有的大量的.vim格式文件的存在下,给很多初学者带来了很多困难(我也是一个初学者哦),因此pathogen脱颖而出,给插件的安装和维护带来了很大的方便-小小易
 ##解决方案(官方版本)
-+ What about how to install Vimballs in pathogen?
-+
-+If you really must use one:
-+
-+    :e name.vba
-+    :!mkdir ~/.vim/bundle/name
-+    :UseVimball ~/.vim/bundle/name
-+That's all , so easy for that!
+ What about how to install Vimballs in pathogen?
+
+If you really must use one:
+
+    :e name.vba
+    :!mkdir ~/.vim/bundle/name
+    :UseVimball ~/.vim/bundle/name
+That's all , so easy for that!
 ##解决方案(more easy to install)
 "--------------------------------------------------
 " pathogen_install_vba.vim
