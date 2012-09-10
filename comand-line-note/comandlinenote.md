@@ -24,7 +24,7 @@ Bash快捷键:
 #PATH环境变量
 
 ##添加环境变量
-	1.零时添加环境变量(*关闭shell,还原PATH环境变量*)
+	1.零时添加环境变量(_关闭shell,还原PATH环境变量_)
 	PATH=$PATH:user/bin
 	2.修改profile文件(attention:重启生效)
 	$vi /etc/profile 
