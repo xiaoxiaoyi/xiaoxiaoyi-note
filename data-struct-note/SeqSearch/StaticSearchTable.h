@@ -25,8 +25,7 @@ typedef float KeyType;
 #define LT(a,b) (strcmp((a),(b))<0)
 #define EQ(a,b) (strcmp((a),(b))>0)
 
-#endif
-																	
+#endif// #ifndef STR_TYPE_CMP 
 				
 
 
