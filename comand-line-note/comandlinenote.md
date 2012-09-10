@@ -23,6 +23,7 @@ Bash快捷键:
 
 #PATH环境变量
 
+##添加环境变量
 	1.零时添加环境变量(关闭shell,还原PATH环境变量)
 	PATH=$PATH:user/bin
 	2.修改profile文件(attention:重启生效)
@@ -33,3 +34,5 @@ Bash快捷键:
 	$vi /root/.bashrc 
 	在里面加入： 
 	export PATH="$PATH:/my_new_path" 
+##显示环境变量
+	1.echo $PATH
