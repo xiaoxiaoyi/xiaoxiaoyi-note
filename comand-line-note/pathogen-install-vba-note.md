@@ -12,6 +12,7 @@ If you really must use one:
     :UseVimball ~/.vim/bundle/name
 That's all , so easy for that!
 ##解决方案(more easy to install)
+<p
 "--------------------------------------------------
 " pathogen_install_vba.vim
 " Author:       jiazhoulvke
